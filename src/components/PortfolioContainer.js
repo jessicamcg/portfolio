@@ -1,9 +1,13 @@
+import Footer from "./Footer";
+import NavTabs from "./Navbar";
+
 export default function PortfolioContainer() {
   
     return (
       <div>
-          <h1>sup</h1>
-          <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <NavTabs />
+        <h1>sup</h1>
+        <Footer/>
       </div>
     );
   }
