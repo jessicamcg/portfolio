@@ -7,6 +7,7 @@ export default function PortfolioContainer() {
       <div>
         <NavTabs />
         <h1>sup</h1>
+        <img src={require("../images/greetings.png")} alt={"sup"}/>
         <Footer/>
       </div>
     );
