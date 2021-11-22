@@ -16,7 +16,7 @@ function NavTabs(currentPage) {
                         href="#home"
                         className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
                     >
-                        Home
+                        home.
                     </a>
                 </li>
                 <li className="nav-item">
@@ -24,7 +24,7 @@ function NavTabs(currentPage) {
                         href="#about"
                         className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                     >
-                        About
+                        about.
                     </a>
                 </li>
                 <li className="nav-item">
@@ -32,7 +32,7 @@ function NavTabs(currentPage) {
                         href="#blog"
                         className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
                     >
-                        Blog
+                        blog.
                     </a>
                 </li>
                 <li className="nav-item">
@@ -40,7 +40,7 @@ function NavTabs(currentPage) {
                         href="#contact"
                         className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                     >
-                        Contact
+                        contact.
                     </a>
                 </li>
             </ul>
