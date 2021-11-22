@@ -29,10 +29,10 @@ function NavTabs(currentPage) {
                 </li>
                 <li className="nav-item">
                     <a
-                        href="#blog"
+                        href="#projects"
                         className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
                     >
-                        blog.
+                        projects.
                     </a>
                 </li>
                 <li className="nav-item">
