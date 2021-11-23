@@ -6,9 +6,10 @@ import TechBlog from './pages/TechBlog';
 import DNDProj from './pages/DNDProj';
 import Placeholder from './pages/Placeholder';
 import TripTunes from './pages/TripTunes';
-import TechBlogImg from '../images/greetings.png';
+import TechBlogImg from '../images/homepage.png';
 import DNDImg from '../images/project-2-dnd-char-tracker (1).gif';
-import TripTunesImg from '../images/project-one-mobile-view.gif';
+import TripTunesImg from '../images/project-one-full-functionality.gif';
+import PlaceholderImg from '../images/greetings.png';
 import Stack from '@mui/material/Stack';
 
 
@@ -46,7 +47,7 @@ const itemData = [
         title: 'DND Character Tracker'
     },
     {
-        img: TechBlogImg,
+        img: PlaceholderImg,
         card: <Placeholder />,
         title: 'Placeholder'
     },
