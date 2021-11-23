@@ -9,48 +9,55 @@ import TripTunes from './pages/TripTunes';
 import TechBlogImg from '../images/greetings.png';
 import DNDImg from '../images/project-2-dnd-char-tracker (1).gif';
 import TripTunesImg from '../images/project-one-mobile-view.gif';
+import Stack from '@mui/material/Stack';
 
 
 export default function TitlebarBelowImageList() {
-  return (
-    <ImageList sx={{ flexShrink: 0, display: 'grid', gridTemplateColumns: 'repeat(1, 1fr)'  }}>
-      {itemData.map((item) => (
-        <ImageListItem key={item.img}>
-          <img
-            src={`${item.img}`}
-            // srcSet={`${item.img}`}
-            alt={`${item.title}`}
-            loading="lazy"
-          />
-          <ImageListItemBar
-            title={item.card}
-            position="below"
-          />
-        </ImageListItem>
-      ))}
-    </ImageList>
-  );
+    return (
+        <Stack
+        direction="column"
+        justifyContent="center"
+        alignItems="center"
+        spacing={2}
+        className="mx-auto my-3"
+            sx={{ flexShrink: 0, display: 'grid', width: '60%' }}>
+            {itemData.map((item) => (
+                <ImageListItem key={item.img}>
+                    <img
+                        src={`${item.img}`}
+                        // srcSet={`${item.img}`}
+                        alt={`${item.title}`}
+                        loading="lazy"
+                    />
+                    <ImageListItemBar
+                        title={item.card}
+                        position="below"
+                    />
+                </ImageListItem>
+            ))}
+        </Stack>
+    );
 }
 
 const itemData = [
-  {
-    img: DNDImg,
-    card: <DNDProj/>,
-    title: 'DND Character Tracker'
-  },
-  {
-    img: TechBlogImg,
-    card: <Placeholder/>,
-    title: 'Placeholder'
-  },
-  {
-    img: TripTunesImg,
-    card: <TripTunes/>,
-    title: 'Trip Tunes'
-  },
-  {
-    img: TechBlogImg,
-    card: <TechBlog/>,
-    title: 'Tech Blog'
-  },
+    {
+        img: DNDImg,
+        card: <DNDProj />,
+        title: 'DND Character Tracker'
+    },
+    {
+        img: TechBlogImg,
+        card: <Placeholder />,
+        title: 'Placeholder'
+    },
+    {
+        img: TripTunesImg,
+        card: <TripTunes />,
+        title: 'Trip Tunes'
+    },
+    {
+        img: TechBlogImg,
+        card: <TechBlog />,
+        title: 'Tech Blog'
+    },
 ];

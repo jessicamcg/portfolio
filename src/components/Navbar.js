@@ -10,7 +10,7 @@ function NavTabs(currentPage) {
     //   };
     return (
         <nav id="navbar">
-            <ul className="nav justify-content-center" >
+            <ul className="nav justify-content-center fixed-bottom" >
                 <li className="nav-item">
                     <a href="#home" className="nav-link">
                         home.
