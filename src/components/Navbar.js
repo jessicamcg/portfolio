@@ -9,11 +9,11 @@ import FactCheckIcon from '@mui/icons-material/FactCheck';
 export default function MenuAppBar() {
   const styles = {
     right: 0,
-    bottom: "20%",
-    left: '85%',
+    left: '88%',
+    height: '100vh'
   }
   return (
-    <Box sx={{ flexGrow: 1 }} className="m-2 d-flex flex-column fixed-bottom" style={styles}>
+    <Box sx={{ flexGrow: 1 }} className="d-flex flex-column fixed-bottom align-middle justify-content-center" style={styles}>
       <React.Fragment>
         <Fab aria-label="home" className="m-2" href="#home">
           <HomeIcon />

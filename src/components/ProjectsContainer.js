@@ -1,15 +1,14 @@
 import * as React from 'react';
-import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import TechBlog from './pages/TechBlog';
 import DNDProj from './pages/DNDProj';
-import Placeholder from './pages/Placeholder';
+// import Placeholder from './pages/Placeholder';
 import TripTunes from './pages/TripTunes';
 import TechBlogImg from '../images/homepage.png';
 import DNDImg from '../images/project-2-dnd-char-tracker (1).gif';
 import TripTunesImg from '../images/project-one-full-functionality.gif';
-import PlaceholderImg from '../images/greetings.png';
+// import PlaceholderImg from '../images/greetings.png';
 import Stack from '@mui/material/Stack';
 
 
