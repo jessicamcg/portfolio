@@ -47,11 +47,11 @@ const itemData = [
         card: <DNDProj />,
         title: 'DND Character Tracker'
     },
-    {
-        img: PlaceholderImg,
-        card: <Placeholder />,
-        title: 'Placeholder'
-    },
+    // {
+    //     img: PlaceholderImg,
+    //     card: <Placeholder />,
+    //     title: 'Placeholder'
+    // },
     {
         img: TripTunesImg,
         card: <TripTunes />,
