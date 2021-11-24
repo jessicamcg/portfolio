@@ -16,12 +16,13 @@ import Stack from '@mui/material/Stack';
 export default function TitlebarBelowImageList() {
     return (
         <Stack
-        direction="column"
-        justifyContent="center"
-        alignItems="center"
-        spacing={2}
-        className="mx-auto my-3"
-            sx={{ flexShrink: 0, display: 'grid', width: '60%' }}>
+            direction="column"
+            justifyContent="center"
+            alignItems="center"
+            spacing={2}
+            className="mx-auto my-3"
+            id="projects"
+            sx={{ flexShrink: 0, display: 'grid', width: '55%' }}>
             {itemData.map((item) => (
                 <ImageListItem key={item.img}>
                     <img

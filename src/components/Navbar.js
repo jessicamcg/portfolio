@@ -1,34 +1,30 @@
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import AccountCircle from '@mui/icons-material/AccountCircle';
+import Fab from '@mui/material/Fab';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import HomeIcon from '@mui/icons-material/Home';
+import WorkIcon from '@mui/icons-material/Work';
+import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 
 export default function MenuAppBar() {
-
+  const styles = {
+    right: 0,
+    bottom: 0,
+    left: '85%',
+  }
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1 }} className="m-2 d-flex flex-column fixed-bottom" style={styles}>
       <React.Fragment>
-      <AppBar position="fixed">
-        <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Photos
-          </Typography>
-          </Toolbar>
-      </AppBar>\
-    </React.Fragment>
+        <Fab aria-label="home" className="m-2" href="#home">
+          <HomeIcon />
+        </Fab>
+        <Fab aria-label="work" className="m-2" href="#projects">
+          <WorkIcon />
+        </Fab>
+        <Fab aria-label="contact" className="m-2" href="#contact">
+          <ConnectWithoutContactIcon />
+        </Fab>
+      </React.Fragment>
     </Box>
   );
 }

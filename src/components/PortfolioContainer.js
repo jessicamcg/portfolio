@@ -5,14 +5,13 @@ import SupIcon from "../images/greetings.png"
 import Body from "./Body";
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('Home');
     const styles = {
         width: "200px"
       };
     return (
       <div className="d-flex flex-column align-middle justify-content-center">
         <NavBar />
-        <img className="mx-auto my-3" style={styles} src={SupIcon} alt={"sup"}/>
+        <img className="mx-auto my-5" style={styles} src={SupIcon} alt={"sup"}/>
         <Body/>
         <Footer/>
       </div>
