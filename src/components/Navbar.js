@@ -1,39 +1,34 @@
-import React from 'react';
+import * as React from 'react';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
+import AccountCircle from '@mui/icons-material/AccountCircle';
 
-function NavTabs(currentPage) {
-    // const styles = {
-    //     position: "fixed",
-    //     right: "0",
-    //     bottom: "0",
-    //     left: "90%",
-    //     zIndex: "1030"
-    //   };
-    return (
-        <nav id="navbar">
-            <ul className="nav justify-content-center fixed-bottom" >
-                <li className="nav-item">
-                    <a href="#home" className="nav-link">
-                        home.
-                    </a>
-                </li>
-                <li className="nav-item">
-                    <a href="#about" className="nav-link">
-                        about.
-                    </a>
-                </li>
-                <li className="nav-item">
-                    <a href="#projects" className="nav-link">
-                        projects.
-                    </a>
-                </li>
-                <li className="nav-item">
-                    <a href="#contact" className="nav-link">
-                        contact.
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    );
+export default function MenuAppBar() {
+
+  return (
+    <Box sx={{ flexGrow: 1 }}>
+      <React.Fragment>
+      <AppBar position="fixed">
+        <Toolbar>
+          <IconButton
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            sx={{ mr: 2 }}
+          >
+            <MenuIcon />
+          </IconButton>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            Photos
+          </Typography>
+          </Toolbar>
+      </AppBar>\
+    </React.Fragment>
+    </Box>
+  );
 }
-
-export default NavTabs;

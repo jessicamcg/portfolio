@@ -20,9 +20,6 @@ export default function TechBlog() {
                 aria-controls="panel3bh-content"
                 id="panel3bh-header"
             >
-                <Typography sx={{ width: '33%', flexShrink: 0 }}>
-                    IMG
-                </Typography>
                 <Typography sx={{ color: 'text.secondary' }}>
                     Tech Blog
                 </Typography>

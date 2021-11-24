@@ -4,9 +4,9 @@ import About from './pages/About';
 import ProjectsContainer from "./ProjectsContainer";
 import Contact from './pages/Contact';
 
-function Scrollspy() {
+function Body() {
     return (
-        <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabIndex="0" className="d-flex flex-column align-middle mx-auto text-center">
+        <div className="d-flex flex-column align-middle mx-auto text-center">
             <Home/>
             <About/>
             <ProjectsContainer/>
@@ -15,4 +15,4 @@ function Scrollspy() {
     )
 }
 
-export default Scrollspy;
+export default Body;

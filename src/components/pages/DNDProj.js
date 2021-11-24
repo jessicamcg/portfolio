@@ -20,10 +20,9 @@ export default function DNDProj() {
                 aria-controls="panel1bh-content"
                 id="panel1bh-header"
             >
-                <Typography sx={{ width: '33%', flexShrink: 0 }}>
-                    IMG
+                <Typography sx={{ color: 'text.secondary' }}>
+                    DND Character Tracker
                 </Typography>
-                <Typography sx={{ color: 'text.secondary' }}>DND Character Tracker</Typography>
             </AccordionSummary>
             <AccordionDetails>
                 <Typography>

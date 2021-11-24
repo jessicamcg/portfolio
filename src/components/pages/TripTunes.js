@@ -20,9 +20,6 @@ export default function TripTunes() {
                 aria-controls="panel2bh-content"
                 id="panel2bh-header"
             >
-                <Typography sx={{ width: '33%', flexShrink: 0 }}>
-                    IMG
-                </Typography>
                 <Typography sx={{ color: 'text.secondary' }}>
                     Trip Tunes
                 </Typography>

@@ -2,8 +2,8 @@ import React from "react";
 
 function Home() {
     return (
-        <div>
-            <h4 id="home"></h4>
+        <div id="home">
+            <h4></h4>
             <p>...</p>
         </div>
     )

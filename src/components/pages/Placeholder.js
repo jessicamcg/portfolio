@@ -21,9 +21,6 @@ export default function Placeholder() {
                     aria-controls="panel4bh-content"
                     id="panel4bh-header"
                 >
-                    <Typography sx={{ width: '33%', flexShrink: 0 }}>
-                        IMG
-                    </Typography>
                     <Typography sx={{ color: 'text.secondary' }}>
                         Project 3 Placeholder
                     </Typography>
