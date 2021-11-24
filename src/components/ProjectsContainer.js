@@ -22,7 +22,9 @@ export default function TitlebarBelowImageList() {
             spacing={2}
             className="mx-auto my-3"
             id="projects"
-            sx={{ flexShrink: 0, display: 'grid', width: '55%' }}>
+            sx={{ flexShrink: 0, display: 'grid', width: '55%' }}
+        >
+            <h4>Previous Projects</h4>
             {itemData.map((item) => (
                 <ImageListItem key={item.img}>
                     <img
