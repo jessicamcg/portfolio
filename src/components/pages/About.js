@@ -14,7 +14,7 @@ function About() {
         <Box 
             id="about" 
             sx={{ display: 'flex', flexDirection: 'row', width:4/5, justifyContent: 'space-evenly', alignContent: 'center', height:'100vh' }} 
-            className="mx-auto my-3"
+            className="mx-auto"
         >
             <img 
                 src = {`${ProfilePic}`}
