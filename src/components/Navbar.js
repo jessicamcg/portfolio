@@ -9,7 +9,7 @@ import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact
 export default function MenuAppBar() {
   const styles = {
     right: 0,
-    bottom: "25%",
+    bottom: "27%",
     left: '85%',
   }
   return (
