@@ -25,8 +25,19 @@ export default function TechBlog() {
                 </Typography>
             </AccordionSummary>
             <AccordionDetails>
-                <Typography>
-                    description
+                <Typography
+                    align='left'
+                    variant='caption'
+                >
+                    <p>
+                        A CMS-style blog site where a user can publish blogs and comments with the option to edit or delete their own posts
+                    </p>
+                </Typography>
+                <Typography
+                    align='left'
+                    sx={{mt:'20px !important'}}
+                >
+                    Built with: JavaScript, CSS, Handlebars, Bootstrap, Express, MySQL, sequelize
                 </Typography>
             </AccordionDetails>
         </Accordion>
