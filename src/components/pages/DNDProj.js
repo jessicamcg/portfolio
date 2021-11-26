@@ -25,10 +25,24 @@ export default function DNDProj() {
                 </Typography>
             </AccordionSummary>
             <AccordionDetails>
-                <Typography>
-                    Character Tracker for dungeon masters playing Dungeons & Dragons. This application lets you log in and store an assortment of basic NPC info that you can quickly pull up and access during a game. You can also quickly auto generate and update old characters at the press of a button.
+                <Typography
+                    align='left'
+                    variant='caption'
+                >
+                    <p>
+                        Character Tracker for dungeon masters playing Dungeons & Dragons.
+                    </p>
+                    <p>    
+                        This application lets you log in and store an assortment of basic NPC info that you can quickly access during a game. 
+                    </p>
+                    <p>
+                        You can also quickly auto generate and update old characters at the press of a button.
+                    </p>
                 </Typography>
-                <Typography>
+                <Typography
+                    align='left'
+                    sx={{mt:'20px !important'}}
+                >
                     Built with: JavaScript, CSS, Handlebars, Bootstrap, Express, MySQL, sequelize
                 </Typography>
             </AccordionDetails>
