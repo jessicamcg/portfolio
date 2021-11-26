@@ -25,8 +25,22 @@ export default function TripTunes() {
                 </Typography>
             </AccordionSummary>
             <AccordionDetails>
-                <Typography>
-                    description
+            <Typography
+                    align='left'
+                    variant='caption'
+                >
+                    <p>
+                        Generates a playlist based off of the user’s preferred artist and trip duration. 
+                    </p>
+                    <p> 
+                        Allows you to save the generated playlist in Spotify to save the playlist.
+                    </p>
+                </Typography>
+                <Typography
+                    align='left'
+                    sx={{mt:'20px !important'}}
+                >
+                    Built with: JavaScript, JQuery, CSS, HTML, Foundation
                 </Typography>
             </AccordionDetails>
         </Accordion>
