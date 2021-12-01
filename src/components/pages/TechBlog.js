@@ -30,7 +30,7 @@ export default function TechBlog() {
                     variant='caption'
                 >
                     <p>
-                        A CMS-style blog site where a user can publish blogs and comments with the option to edit or delete their own posts
+                        A CMS-style blog site where users can publish blogs and comments with the option to edit or delete their own posts
                     </p>
                 </Typography>
                 <Typography

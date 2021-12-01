@@ -33,7 +33,10 @@ export default function DNDProj() {
                         Character Tracker for dungeon masters playing Dungeons & Dragons.
                     </p>
                     <p>    
-                        This application lets you log in and store an assortment of basic NPC info that you can quickly access during a game. 
+                        This application lets you log in and store an assortment of basic 
+                    </p>
+                    <p>
+                        NPC info that you can quickly access during a game. 
                     </p>
                     <p>
                         You can also quickly auto generate and update old characters at the press of a button.
