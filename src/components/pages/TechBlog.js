@@ -4,6 +4,8 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Link from '@mui/material/Link';
+
 
 
 export default function TechBlog() {
@@ -39,6 +41,18 @@ export default function TechBlog() {
                 >
                     Built with: JavaScript, CSS, Handlebars, Bootstrap, Express, MySQL, sequelize
                 </Typography>
+                <Link 
+                    href="https://github.com/jessicamcg/tech-blog"
+                    sx={{ p:'10px' }}
+                >
+                    GitHub Repo
+                </Link>
+                <Link 
+                    href="https://floating-dusk-39369.herokuapp.com/"
+                    sx={{ p:'10px' }}
+                >
+                    Live Website
+                </Link>
             </AccordionDetails>
         </Accordion>
     );
