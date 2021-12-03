@@ -44,12 +44,14 @@ export default function TechBlog() {
                 <Link 
                     href="https://github.com/jessicamcg/tech-blog"
                     sx={{ p:'10px' }}
+                    underline="hover"
                 >
                     GitHub Repo
                 </Link>
                 <Link 
                     href="https://floating-dusk-39369.herokuapp.com/"
                     sx={{ p:'10px' }}
+                    underline="hover"
                 >
                     Live Website
                 </Link>

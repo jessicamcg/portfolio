@@ -52,12 +52,14 @@ export default function DNDProj() {
                 <Link 
                     href="https://github.com/jasonluxie/8-1-project-2"
                     sx={{ p:'10px' }}
+                    underline="hover"
                 >
                     GitHub Repo
                 </Link>
                 <Link 
                     href="https://dnd-dm-character-tracker.herokuapp.com/"
                     sx={{ p:'10px' }}
+                    underline="hover"
                 >
                     Live Website
                 </Link>
