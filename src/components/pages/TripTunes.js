@@ -4,6 +4,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Link from '@mui/material/Link';
 
 
 export default function TripTunes() {
@@ -42,6 +43,18 @@ export default function TripTunes() {
                 >
                     Built with: JavaScript, JQuery, CSS, HTML, Foundation
                 </Typography>
+                <Link 
+                    href="https://github.com/jessicamcg/trip-tunes"
+                    sx={{ p:'10px' }}
+                >
+                    GitHub Repo
+                </Link>
+                <Link 
+                    href="https://jessicamcg.github.io/trip-tunes/"
+                    sx={{ p:'10px' }}
+                >
+                    Live Website
+                </Link>
             </AccordionDetails>
         </Accordion>
     );
