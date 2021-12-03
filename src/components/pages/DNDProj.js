@@ -4,6 +4,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Link from '@mui/material/Link';
 
 
 export default function DNDProj() {
@@ -32,11 +33,11 @@ export default function DNDProj() {
                     <p>
                         Character Tracker for dungeon masters playing Dungeons & Dragons.
                     </p>
-                    <p>    
-                        This application lets you log in and store an assortment of basic 
+                    <p>
+                        This application lets you log in and store an assortment of basic
                     </p>
                     <p>
-                        NPC info that you can quickly access during a game. 
+                        NPC info that you can quickly access during a game.
                     </p>
                     <p>
                         You can also quickly auto generate and update old characters at the press of a button.
@@ -44,10 +45,22 @@ export default function DNDProj() {
                 </Typography>
                 <Typography
                     align='left'
-                    sx={{mt:'20px !important'}}
+                    sx={{ mt: '20px !important' }}
                 >
                     Built with: JavaScript, CSS, Handlebars, Bootstrap, Express, MySQL, sequelize
                 </Typography>
+                <Link 
+                    href="https://github.com/jasonluxie/8-1-project-2"
+                    sx={{ p:'10px' }}
+                >
+                    GitHub Repo
+                </Link>
+                <Link 
+                    href="https://dnd-dm-character-tracker.herokuapp.com/"
+                    sx={{ p:'10px' }}
+                >
+                    Live Website
+                </Link>
             </AccordionDetails>
         </Accordion>
     );
