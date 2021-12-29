@@ -46,12 +46,14 @@ export default function TripTunes() {
                 <Link 
                     href="https://github.com/jessicamcg/trip-tunes"
                     sx={{ p:'10px' }}
+                    underline="hover"
                 >
                     GitHub Repo
                 </Link>
                 <Link 
                     href="https://jessicamcg.github.io/trip-tunes/"
                     sx={{ p:'10px' }}
+                    underline="hover"
                 >
                     Live Website
                 </Link>

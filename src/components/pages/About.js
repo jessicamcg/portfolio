@@ -8,7 +8,7 @@ function About() {
         width: "200px",
         height: "200px",
         borderRadius: "50%",
-        border: "8px solid #FFCCBC"
+        border: "8px solid #ECB984"
       };
     return (
         <Box 
