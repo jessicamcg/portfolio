@@ -11,17 +11,21 @@ function Skills() {
         <React.Fragment>
           <CardContent>
             <Typography>
-            HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js, MySQL, NoSQL, 
+            JavaScript, jQuery, Node.js, Express.js, MERN
             <br /><br />
-            Express.js, Progressive Web Applications, React, MongoDB, MERN
+            React, HTML, CSS, Bootstrap,
+            <br /><br />
+            Java, Linux, Maven, Apache Tomcat, JDBC
+            <br /><br />
+            MySQL, NoSQL, MongoDB, 
             <br /><br />
             </Typography>
             <Typography>
-            Git, GitHub, Visual Studio Code, Insomnia, Responsive Design, UX/UI, Object-Oriented Programming, 
+            Git, GitHub, Visual Studio Code, IntelliJ, Object-Oriented Programming, 
             <br /><br />
-            Heroku, RESTful Routes/APIs, Object-Relational Mapping, Model-View-Controller, 
+            RESTful Routes/APIs, Object-Relational Mapping, Model-View-Controller,  Responsive Design, UX/UI
             <br /><br />
-            CRUD, Progressive Web Applications, GraphQL, Apollo GraphQL
+            Progressive Web Applications, GraphQL, Apollo GraphQL, Insomnia, Heroku
             </Typography>
           </CardContent>
         </React.Fragment>
@@ -34,7 +38,7 @@ function Skills() {
     };
     return (
         <div id="skills">
-            <h4 >Skills</h4>
+            <h4 >skills</h4>
             <FormControlLabel
                 control={<Switch checked={checked} onChange={handleChange} />}
                 label="Show"

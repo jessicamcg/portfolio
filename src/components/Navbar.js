@@ -17,10 +17,10 @@ export default function MenuAppBar() {
   const theme = createTheme({
     palette: {
       primary: {
-        main: "#DDA15E",
+        main: "#4c5d49",
       },
       secondary: {
-        main: "#963A2F",
+        main: "#4c5d49",
       },
       info: {
         main: "#000000",
